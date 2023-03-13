@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 67);
+    color: white;
+}
+
+    
+    
+    
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+input{
+    width: 30rem;
+    height: 1.9rem;
+    margin: 10px;
+}
+label{
+    font-size: 1.5rem;
+}
