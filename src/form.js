@@ -43,10 +43,10 @@ const handle_repassword=(e)=>{
   let repass=e.target.value;
   console.log(repass);
   if(!(password===repass)){
-    setpasswordError(true);
+    setrepassError(true);
   }
   else{
-    setpasswordError(false);
+    setrepassError(false);
   }
   setpassword(password);
   console.log(password);
@@ -74,10 +74,10 @@ const handle_submit = (e)=>{
   
   let repassword= e.target[2].value;
   if(password===repassword){
-    setpasswordError(false);
+    setrepassError(false);
   }
   else{
-    setpasswordError(true);
+    setrepassError(true);
   }
  
 }
